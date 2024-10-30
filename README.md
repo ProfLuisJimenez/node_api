@@ -12,8 +12,8 @@ Ejecutar con comando
 - npm run dev
 
 ## Configuración
-- Agregar credenciales de conexión a deb: dbConfig.js
-- Actualizar cadena en: authMiddleware.js
+- Agregar credenciales de conexión a deb: db.js
+- Actualizar cadena en: auth.js
 
 NOTA: Posteriormente se agregarán en .env
 
