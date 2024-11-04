@@ -1,10 +1,10 @@
 const conn = require('mysql2');
 
 const conexion = conn.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: 'dbtesting',
-    database: 'test_api',
+    host: process.env.host,
+    user: process.env.user,
+    password: process.env.password,
+    database: process.env.database,
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0,

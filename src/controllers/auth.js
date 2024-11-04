@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const {obtenerUsuarioPorId} = require('../models/user');
 const {validarContrasenaCorrecta} = require('../services/validation');
-const cadena = "123tamarindo";
+const cadena = process.env.cadena;
 
 const auth = async (req, res) => { 
   const { id, password } = req.body;
