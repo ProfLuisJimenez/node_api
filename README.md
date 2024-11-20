@@ -15,7 +15,18 @@ Ejecutar con comando
 - Agregar credenciales de conexión a deb: db.js
 - Actualizar cadena en: auth.js
 
-NOTA: Posteriormente se agregarán en .env
+## Configuración de .env
+# Puerto de Aplicación
+PORT=
+
+# Conexión a la base de datos
+DB_HOST=
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+
+# Clave secreta
+cadena=
 
 ## Contribuciones
 - Nataly
